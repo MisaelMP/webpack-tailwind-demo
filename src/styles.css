@@ -1,0 +1,11 @@
+@import "./vendors/tailwind.css";
+
+.demo {
+  &__title {
+    @apply text-red-500 text-xl underline;
+  }
+
+  &__list {
+    @apply flex justify-around text-blue-300 bg-gray-300;
+  }
+}
